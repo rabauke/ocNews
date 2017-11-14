@@ -64,18 +64,19 @@ ListItem {
         spacing: 8
 
         Item {
-            width: 32
-            height: 32
+            width: Theme.iconSizeSmall + Theme.paddingSmall
+            height: Theme.iconSizeSmall
             anchors.verticalCenter: parent.verticalCenter
 
             Image {
-                anchors.centerIn: parent
+                anchors.verticalCenter: parent.verticalCenter
+                anchors.left: parent.left
                 visible: true
                 asynchronous: true
-                width: 32
-                height: 32
-                sourceSize.width: model.iconSource ? model.iconWidth : 64
-                sourceSize.height: model.iconSource ? model.iconHeight : 64
+                width: Theme.iconSizeSmall
+                height: Theme.iconSizeSmall
+                //sourceSize.width: model.iconSource ? model.iconWidth : 64
+                //sourceSize.height: model.iconSource ? model.iconHeight : 64
                 source: model.iconSource ? model.iconSource : getIconSource()
             }
         }

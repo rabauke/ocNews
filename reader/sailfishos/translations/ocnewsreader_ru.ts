@@ -382,7 +382,7 @@
 <context>
     <name>FeedListDelegate</name>
     <message>
-        <location filename="../qml/Delegates/FeedListDelegate.qml" line="+124"/>
+        <location filename="../qml/Delegates/FeedListDelegate.qml" line="+125"/>
         <source>Update</source>
         <translation>Обновить</translation>
     </message>
@@ -500,7 +500,7 @@
 <context>
     <name>FolderListDelegate</name>
     <message>
-        <location filename="../qml/Delegates/FolderListDelegate.qml" line="+150"/>
+        <location filename="../qml/Delegates/FolderListDelegate.qml" line="+151"/>
         <location line="+29"/>
         <source>Update</source>
         <translation>Обновить</translation>

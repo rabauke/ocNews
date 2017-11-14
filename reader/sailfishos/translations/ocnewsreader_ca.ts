@@ -258,7 +258,6 @@
         <translation type="unfinished">
             <numerusform></numerusform>
             <numerusform></numerusform>
-            <numerusform></numerusform>
         </translation>
     </message>
     <message numerus="yes">
@@ -267,14 +266,12 @@
         <translation type="unfinished">
             <numerusform></numerusform>
             <numerusform></numerusform>
-            <numerusform></numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <location line="+2"/>
         <source>%n minute(s) ago</source>
         <translation type="unfinished">
-            <numerusform></numerusform>
             <numerusform></numerusform>
             <numerusform></numerusform>
         </translation>
@@ -382,7 +379,7 @@
 <context>
     <name>FeedListDelegate</name>
     <message>
-        <location filename="../qml/Delegates/FeedListDelegate.qml" line="+124"/>
+        <location filename="../qml/Delegates/FeedListDelegate.qml" line="+125"/>
         <source>Update</source>
         <translation type="unfinished"></translation>
     </message>
@@ -500,7 +497,7 @@
 <context>
     <name>FolderListDelegate</name>
     <message>
-        <location filename="../qml/Delegates/FolderListDelegate.qml" line="+150"/>
+        <location filename="../qml/Delegates/FolderListDelegate.qml" line="+151"/>
         <location line="+29"/>
         <source>Update</source>
         <translation type="unfinished"></translation>

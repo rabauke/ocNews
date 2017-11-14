@@ -45,18 +45,19 @@ ListItem {
         spacing: 8
 
         Item {
-            width: 64
-            height: 64
+            width: Theme.iconSizeSmall + Theme.paddingSmall
+            height: Theme.iconSizeSmall
             anchors.verticalCenter: parent.verticalCenter
 
             Image {
-                anchors.centerIn: parent
+                anchors.verticalCenter: parent.verticalCenter
+                anchors.left: parent.left
                 asynchronous: true
                 visible: true
-                width: model.type === "1" ? 64 : 32
-                height: model.type === "1" ? 64 : 32
-                sourceSize.width: model.iconSource ? parseInt(model.iconWidth, 10) : 64
-                sourceSize.height: model.iconSource ? parseInt(model.iconHeight, 10) : 64
+                width: Theme.iconSizeSmall
+                height: Theme.iconSizeSmall
+                //sourceSize.width: model.iconSource ? parseInt(model.iconWidth, 10) : Theme.itemSizeExtraSmall
+                //sourceSize.height: model.iconSource ? parseInt(model.iconHeight, 10) : Theme.itemSizeExtraSmall
                 source: model.iconSource ? model.iconSource : (model.type === "1") ? "image://theme/icon-m-folder" : "/usr/share/harbour-ocnews-reader/icons/icon-m-rss.png"
             }
         }
